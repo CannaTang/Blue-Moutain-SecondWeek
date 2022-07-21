@@ -1,22 +1,22 @@
 # Blue-Moutain-SecondWeek
-#(1)一个结构体所占空间大小与(ABC)有关
-  A 成员本身大小；B 成员对齐系数；C 系统字长
+#(1)一个结构体所占空间大小与(ABC)有关  
+  A 成员本身大小；B 成员对齐系数；C 系统字长  
 
-#(2)占用内存最小的结构体
-type A struct{
-  num1 int32
-  byte1 byte
-  a struct{}
-  str string
-}
+#(2)占用内存最小的结构体  
+type A struct{  
+  num1 int32  
+  byte1 byte  
+  a struct{}  
+  str string  
+}  
 
-#(3)Go字符串中，每个字符占用多少字节：
-A 1；B 3；C 1-4
+#(3)Go字符串中，每个字符占用多少字节：  
+A 1；B 3；C 1-4  
 
-#(4) Go的map使用的数据结构是：
-  A B+树；B 开放寻址法的Hash表 ；C 拉链法Hash
+#(4) Go的map使用的数据结构是：  
+  A B+树；B 开放寻址法的Hash表 ；C 拉链法Hash  
 
-#(5)空结构体的地址在任何时候都是zerobase？
-  A 是；B 不是
+#(5)空结构体的地址在任何时候都是zerobase？  
+  A 是；B 不是  
 
-#(6)空接口就是nil接口？
+#(6)空接口就是nil接口？  
